@@ -19,6 +19,8 @@ end
 
 in_arr = IO.readlines(ARGV[0])
 a = make_array(in_arr)
+
+
 i = 0 
 i_max = 0
 
@@ -30,3 +32,23 @@ while i < a.length
 end
 
 puts "The elf with the most calories is elf #{i_max + 1} with #{a[i_max]} calories"
+
+
+##################################
+########### Solution 2 ###########
+##################################
+
+class Maximum
+  def initialize()
+    @index = 0 
+    @value = 0 
+  end 
+end
+
+maximums = Array.new(3, Maximum.new)
+i = 0
+
+while i < a.length
+  # TODO: FINISH THIS PROCEDURE
+  i += 1
+end
