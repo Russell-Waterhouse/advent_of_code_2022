@@ -37,18 +37,8 @@ puts "The elf with the most calories is elf #{i_max + 1} with #{a[i_max]} calori
 ##################################
 ########### Solution 2 ###########
 ##################################
+a = a.sort.reverse
 
-class Maximum
-  def initialize()
-    @index = 0 
-    @value = 0 
-  end 
-end
+top_three_cals = a[0] + a[1] + a[2]
 
-maximums = Array.new(3, Maximum.new)
-i = 0
-
-while i < a.length
-  # TODO: FINISH THIS PROCEDURE
-  i += 1
-end
+puts "top 3: #{top_three_cals}"
