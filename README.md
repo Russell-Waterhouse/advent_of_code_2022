@@ -16,4 +16,5 @@ hash table lookups.
 I don't believe this was the best approach, and I didn't believe it at the time, but I wanted to experiment
 to see if I could (and I could!).
 
-All of this code is proudly exploratory, horrendous, inefficient, unreadable, downright dirty, and getting me stars. 
+All of this code is proudly exploratory, horrendous, inefficient, unreadable, downright dirty, sharpening my skills spike skills, and 
+earning me stars. 
